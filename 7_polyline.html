@@ -1,0 +1,29 @@
+<!-- polyline and polygone is same with svg -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+        .container{
+            height: 500px ;
+            width: 500px;
+            background: #3d3b3b;
+        }
+    </style>
+ </head>
+ <body>
+    <div class="container">
+    <svg viewBox="0 0 100 100">
+       <polygon points="20 20 20 70 50 70 50 20 80 20 80 70 50 70 " fill="none" stroke="white"></polygon>
+    </svg>
+    </div>
+     <div class="container">
+    <svg viewBox="0 0 100 100">
+       <polyline points="20 20 20 70 50 70 50 20 80 20 80 70 50 70 " fill="none" stroke="white"></polyline>
+    </svg>
+    </div>
+ </body>
+ </html>
