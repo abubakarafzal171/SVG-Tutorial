@@ -1,0 +1,32 @@
+<!--  svg with texts -->
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <style>
+          .container{
+            height: 300px ;
+            width: 300px; 
+            margin: 10px;
+            background: #3d3b3b;
+        }
+        .subtext{
+            fill: green;
+            stroke: none;
+
+        }
+
+      </style>
+  </head>
+  <body>
+      <div class="container">
+        <svg viewBox="0 0 100 100">
+           <text x="20 " y="50" text-anchor="start" fill="none" stroke="red" stroke-width="0.3">Abubakar
+            <tspan y="70" x="20" class="subtext">Afzal</tspan>
+           </text>
+        </svg>
+    </div>
+  </body>
+  </html>
